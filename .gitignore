@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/_ReSharper.Caches/ReSharperPlatformVs16192_20ea5a49.00
+/builder/.jekyll-metadata

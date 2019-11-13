@@ -1,16 +1,34 @@
 {
   
   "1": {
-    "title": "Functional programming",
-    "content": "Microsoft Orleans Security . Authorization .",
-    "url": "https://docs.asynchub.org/docs/functional-programming",
-    "relUrl": "/docs/functional-programming"
+    "title": "DevOps",
+    "content": "DevOps .",
+    "url": "https://docs.asynchub.org/devops/overview",
+    "relUrl": "/devops/overview"
   }
   ,"2": {
+    "title": "Functional Programming",
+    "content": "Functional Programming .",
+    "url": "https://docs.asynchub.org/functional-programming/overview",
+    "relUrl": "/functional-programming/overview"
+  }
+  ,"3": {
+    "title": "Git Cheat Sheet",
+    "content": "Git Cheat Sheet . New repository . git init git status .",
+    "url": "https://docs.asynchub.org/version-control/git-cheat-sheet",
+    "relUrl": "/version-control/git-cheat-sheet"
+  }
+  ,"4": {
     "title": "Home",
     "content": "Focus on writing good documentation .",
     "url": "https://docs.asynchub.org/",
     "relUrl": "/"
+  }
+  ,"5": {
+    "title": "Version Control",
+    "content": "Version Control .",
+    "url": "https://docs.asynchub.org/version-control/",
+    "relUrl": "/version-control/"
   }
   
 }
