@@ -9,8 +9,8 @@
   ,"2": {
     "title": "Functional Programming",
     "content": "Functional Programming .",
-    "url": "https://docs.asynchub.org/functional-programming/overview",
-    "relUrl": "/functional-programming/overview"
+    "url": "https://docs.asynchub.org/functional-programming",
+    "relUrl": "/functional-programming"
   }
   ,"3": {
     "title": "Git Cheat Sheet",
@@ -29,6 +29,24 @@
     "content": "Version Control .",
     "url": "https://docs.asynchub.org/version-control/",
     "relUrl": "/version-control/"
+  }
+  ,"6": {
+    "title": "Software Testing",
+    "content": "Software Testing .",
+    "url": "https://docs.asynchub.org/software-testing",
+    "relUrl": "/software-testing"
+  }
+  ,"7": {
+    "title": "What Is a Pure Function",
+    "content": "What Is a Pure Function? . In software development, a pure function is a function with the following properties: . The function output always depends on the input. | Has no side effects after evaluation. | .",
+    "url": "https://docs.asynchub.org/functional-programming/what-is-a-pure-function",
+    "relUrl": "/functional-programming/what-is-a-pure-function"
+  }
+  ,"8": {
+    "title": "What Is a side effect",
+    "content": "What Is a side effect in computer sience? .",
+    "url": "https://docs.asynchub.org/functional-programming/what-is-a-side-effect-in-computer-sience",
+    "relUrl": "/functional-programming/what-is-a-side-effect-in-computer-sience"
   }
   
 }
