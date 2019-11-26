@@ -7,28 +7,28 @@
     "relUrl": "/devops/overview"
   }
   ,"2": {
+    "title": "Docker Cheat Sheet",
+    "content": "Docker Cheat Sheet . How to: . list images . docker images . remove an image . docker rmi &quot;name or ID&quot; . see all containers . docker -ps -a . run a container . docker run -d &quot;name or ID&quot; . restart a container . docker restart &quot;name or ID&quot; . stop a container . docker stop &quot;name or ID&quot; . remove a container . docker rm &quot;name or ID&quot; .",
+    "url": "https://docs.asynchub.org/devops/docker/docker-cheat-sheet",
+    "relUrl": "/devops/docker/docker-cheat-sheet"
+  }
+  ,"3": {
     "title": "Functional Programming",
     "content": "Functional Programming .",
     "url": "https://docs.asynchub.org/functional-programming",
     "relUrl": "/functional-programming"
   }
-  ,"3": {
+  ,"4": {
     "title": "Git Cheat Sheet",
     "content": "Git Cheat Sheet . New repository . git init git status .",
     "url": "https://docs.asynchub.org/version-control/git-cheat-sheet",
     "relUrl": "/version-control/git-cheat-sheet"
   }
-  ,"4": {
+  ,"5": {
     "title": "Home",
-    "content": "Focus on writing good documentation .",
+    "content": "Focus on writing helpful notes! . This resource is the set of references to the different kinds of resources and my personal notes about software development. I catch them for the past ten years and find it very helpful for me. .",
     "url": "https://docs.asynchub.org/",
     "relUrl": "/"
-  }
-  ,"5": {
-    "title": "Version Control",
-    "content": "Version Control .",
-    "url": "https://docs.asynchub.org/version-control/",
-    "relUrl": "/version-control/"
   }
   ,"6": {
     "title": "Software Testing",
@@ -37,13 +37,19 @@
     "relUrl": "/software-testing"
   }
   ,"7": {
-    "title": "What Is a Pure Function",
-    "content": "What Is a Pure Function? . In software development, a pure function is a function with the following properties: . The function output always depends on the input. | Has no side effects after evaluation. | .",
+    "title": "Version Control",
+    "content": "Version Control .",
+    "url": "https://docs.asynchub.org/version-control/",
+    "relUrl": "/version-control/"
+  }
+  ,"8": {
+    "title": "What Is a Pure Function?",
+    "content": "What Is a Pure Function? . In software development, a pure function is a function with the following properties: . The function output always depends on the input. | Has no side effects after evaluation. | . . The excellent explanation of pure function you can find here. . The book: Functional Programming in C#: How to write better C# code by Enrico Buonanno. .",
     "url": "https://docs.asynchub.org/functional-programming/what-is-a-pure-function",
     "relUrl": "/functional-programming/what-is-a-pure-function"
   }
-  ,"8": {
-    "title": "What Is a side effect",
+  ,"9": {
+    "title": "What Is a side effect?",
     "content": "What Is a side effect in computer sience? .",
     "url": "https://docs.asynchub.org/functional-programming/what-is-a-side-effect-in-computer-sience",
     "relUrl": "/functional-programming/what-is-a-side-effect-in-computer-sience"
