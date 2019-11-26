@@ -2,9 +2,12 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: ""
 permalink: /
 ---
 
-# Focus on writing good documentation
+## Focus on writing helpful notes!
 
+This resource is the set of references to the different kinds of resources and
+my personal notes about software development. I catch them for the past ten years
+and find it very helpful for me.
