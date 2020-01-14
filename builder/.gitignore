@@ -5,4 +5,4 @@ _site
 Gemfile.lock
 node_modules
 /.vs
-/_ReSharper.Caches/ReSharperPlatformVs16192_20ea5a49.00
+/_ReSharper.Caches
