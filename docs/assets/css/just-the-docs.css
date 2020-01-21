@@ -465,7 +465,7 @@ hr {
   z-index: 100;
   display: flex;
   flex-wrap: wrap;
-  background-color: #f5f6fa; }
+  background-color: #fff; }
   @media (min-width: 50rem) {
     .side-bar {
       flex-wrap: nowrap;
@@ -523,7 +523,7 @@ hr {
   display: none;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #f5f6fa; }
+  background-color: #fff; }
   @media (min-width: 50rem) {
     .page-header {
       padding-right: 2rem;
@@ -1152,7 +1152,7 @@ li .highlight {
   padding-bottom: 0.25rem;
   padding-left: 0.75rem; }
   .search-result:hover, .search-result.active {
-    background-color: #f5f6fa; }
+    background-color: #fff; }
   @media (min-width: 50rem) {
     .search-result {
       padding-right: 1rem;
