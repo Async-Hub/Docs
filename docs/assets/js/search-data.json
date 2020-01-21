@@ -26,7 +26,7 @@
   }
   ,"5": {
     "title": "Home",
-    "content": "Focus on writing helpful notes! . This resource is the set of references to the different kinds of resources and my personal notes about software development. I catch them for the past ten years and find it very helpful for me. .",
+    "content": "Focus on writing helpful notes! . This resource is the set of references to the different kinds of resources and my notes about software development. I found them very useful to me for the last ten years. .",
     "url": "https://docs.asynchub.org/",
     "relUrl": "/"
   }
@@ -43,16 +43,16 @@
     "relUrl": "/version-control/"
   }
   ,"8": {
-    "title": "What Is a Pure Function?",
-    "content": "What Is a Pure Function? . In software development, a pure function is a function with the following properties: . The function output always depends on the input. | Has no side effects after evaluation. | . . The excellent explanation of pure function you can find here. . The book: Functional Programming in C#: How to write better C# code by Enrico Buonanno. .",
-    "url": "https://docs.asynchub.org/functional-programming/what-is-a-pure-function",
-    "relUrl": "/functional-programming/what-is-a-pure-function"
+    "title": "What is a function with side effect?",
+    "content": "What is a function with side effect? . If a function modifies some state outside its local scope. . . The excellent explanation of side effect you can find here . A side effect definition in computer science. .",
+    "url": "https://docs.asynchub.org/functional-programming/what-is-a-function-with-side-effect",
+    "relUrl": "/functional-programming/what-is-a-function-with-side-effect"
   }
   ,"9": {
-    "title": "What Is a side effect?",
-    "content": "What Is a side effect in computer sience? .",
-    "url": "https://docs.asynchub.org/functional-programming/what-is-a-side-effect-in-computer-sience",
-    "relUrl": "/functional-programming/what-is-a-side-effect-in-computer-sience"
+    "title": "What is a pure function?",
+    "content": "What is a pure function? . In software development, a pure function is a function with the following properties: . The function output always depends on the input. | Has no side effects after evaluation. | . . The excellent explanation of pure function you can find here. . The book: Functional Programming in C#: How to write better C# code by Enrico Buonanno. .",
+    "url": "https://docs.asynchub.org/functional-programming/what-is-a-pure-function",
+    "relUrl": "/functional-programming/what-is-a-pure-function"
   }
   
 }

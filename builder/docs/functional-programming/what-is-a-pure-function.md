@@ -1,13 +1,13 @@
 ---
 layout: default
-title: What Is a Pure Function?
+title: What is a pure function?
 parent: Functional Programming
 nav_order: 2
 has_children: false
 permalink: functional-programming/what-is-a-pure-function
 ---
 
-## What Is a Pure Function?
+## What is a pure function?
 
 In software development, a **pure function** is a function with the following properties:
 - The function output always depends on the input.
