@@ -1,54 +1,66 @@
 {
   
   "1": {
-    "title": "DevOps",
-    "content": "DevOps .",
-    "url": "https://docs.asynchub.org/devops/overview",
-    "relUrl": "/devops/overview"
+    "title": "Async programming",
+    "content": "Asynchronous Programming in F# . Resources . Async programming in F# The F# Asynchronous Programming Model Async in C# and F# Asynchronous gotchas in C# The “Computation Expressions” series .",
+    "url": "https://docs.asynchub.org/functional-programming/fsharp/async",
+    "relUrl": "/functional-programming/fsharp/async"
   }
   ,"2": {
+    "title": "DevOps",
+    "content": "DevOps .",
+    "url": "https://docs.asynchub.org/devops",
+    "relUrl": "/devops"
+  }
+  ,"3": {
     "title": "Docker Cheat Sheet",
     "content": "Docker Cheat Sheet . How to: . list images . docker images . remove an image . docker rmi &quot;name or ID&quot; . see all containers . docker -ps -a . run a container . docker run -d &quot;name or ID&quot; . restart a container . docker restart &quot;name or ID&quot; . stop a container . docker stop &quot;name or ID&quot; . remove a container . docker rm &quot;name or ID&quot; .",
     "url": "https://docs.asynchub.org/devops/docker/docker-cheat-sheet",
     "relUrl": "/devops/docker/docker-cheat-sheet"
   }
-  ,"3": {
+  ,"4": {
+    "title": "Functional Programming in F Sharp",
+    "content": "Functional Programming in F# .",
+    "url": "https://docs.asynchub.org/functional-programming/fsharp",
+    "relUrl": "/functional-programming/fsharp"
+  }
+  ,"5": {
     "title": "Functional Programming",
     "content": "Functional Programming .",
     "url": "https://docs.asynchub.org/functional-programming",
     "relUrl": "/functional-programming"
   }
-  ,"4": {
+  ,"6": {
     "title": "Git Cheat Sheet",
     "content": "Git Cheat Sheet . New repository . git init git status .",
-    "url": "https://docs.asynchub.org/version-control/git-cheat-sheet",
-    "relUrl": "/version-control/git-cheat-sheet"
+    "url": "https://docs.asynchub.org/devops/version-control/git-cheat-sheet",
+    "relUrl": "/devops/version-control/git-cheat-sheet"
   }
-  ,"5": {
+  ,"7": {
     "title": "Home",
     "content": "Focus on writing helpful notes! . This resource is the set of references to the different kinds of resources and my notes about software development. I found them very useful to me for the last ten years. .",
     "url": "https://docs.asynchub.org/",
     "relUrl": "/"
   }
-  ,"6": {
+  ,"8": {
     "title": "Software Testing",
     "content": "Software Testing .",
     "url": "https://docs.asynchub.org/software-testing",
     "relUrl": "/software-testing"
   }
-  ,"7": {
+  ,"9": {
     "title": "Version Control",
     "content": "Version Control .",
-    "url": "https://docs.asynchub.org/version-control/",
-    "relUrl": "/version-control/"
+    "url": "https://docs.asynchub.org/devops/version-control/",
+    "relUrl": "/devops/version-control/"
   }
-  ,"8": {
+  ,"10": {
     "title": "What is a function with side effect?",
     "content": "What is a function with side effect? . If a function modifies some state outside its local scope. . . The excellent explanation of side effect you can find here . A side effect definition in computer science. .",
     "url": "https://docs.asynchub.org/functional-programming/what-is-a-function-with-side-effect",
     "relUrl": "/functional-programming/what-is-a-function-with-side-effect"
   }
-  ,"9": {
+  ,"11": {
     "title": "What is a pure function?",
     "content": "What is a pure function? . In software development, a pure function is a function with the following properties: . The function output always depends on the input. | Has no side effects after evaluation. | . . The excellent explanation of pure function you can find here. . The book: Functional Programming in C#: How to write better C# code by Enrico Buonanno. .",
     "url": "https://docs.asynchub.org/functional-programming/what-is-a-pure-function",

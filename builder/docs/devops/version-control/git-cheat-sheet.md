@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Git Cheat Sheet
+nav_order: 2
 parent: Version Control
-nav_order: 3
+grand_parent: DevOps
 has_children: false
-permalink: version-control/git-cheat-sheet
+permalink: devops/version-control/git-cheat-sheet
 ---
 
-# Git Cheat Sheet
+## Git Cheat Sheet
 
 **New repository**
 ```powershell
