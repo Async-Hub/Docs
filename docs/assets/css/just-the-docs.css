@@ -5926,3 +5926,7 @@ figure.highlight {
   .py-xl-10 {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important; } }
+.video-container iframe {
+  height: 100%;
+  width: 100%;
+  min-height: 480px; }
