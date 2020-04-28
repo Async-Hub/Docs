@@ -12,6 +12,7 @@ permalink: functional-programming/what-is-a-function-with-side-effect
 If a function modifies some state outside its local scope.
 
 ---
+### Additional resources list
 
 The excellent explanation of side effect you can find [here](https://learning.oreilly.com/library/view/functional-programming-in/9781617293955/kindle_split_010.html)
 

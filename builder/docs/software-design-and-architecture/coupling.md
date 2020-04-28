@@ -17,7 +17,7 @@ permalink: software-design-and-architecture/coupling
 
 
 ---
-### List of external resources
+### Additional resources list
 
 - Temporal Coupling
 	- [Forms of Temporal Coupling](https://www.pluralsight.com/tech-blog/forms-of-temporal-coupling/)  
