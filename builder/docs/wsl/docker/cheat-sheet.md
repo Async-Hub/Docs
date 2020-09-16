@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Docker Cheat Sheet
-parent: Windows Subsystem for Linux
+parent: Docker
+grand_parent: Windows Subsystem for Linux
 nav_order: 1
 has_children: false
-permalink: wsl/docker/docker-cheat-sheet
+permalink: wsl/docker/cheat-sheet
 ---
 
 ## Docker Cheat Sheet
@@ -46,4 +47,9 @@ remove a container
 ```powershell
 docker rm
 "name or ID"
+```
+
+onnect to a container
+```powershell
+docker exec -it "container name" /bin/bash
 ```

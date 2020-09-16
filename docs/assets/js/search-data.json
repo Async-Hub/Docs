@@ -7,132 +7,150 @@
     "relUrl": "/functional-programming/fsharp/async"
   }
   ,"2": {
+    "title": "Docker Cheat Sheet",
+    "content": "Docker Cheat Sheet . How to: . list images . docker images . remove an image . docker rmi &quot;name or ID&quot; . see all containers . docker -ps -a . run a container . docker run -d &quot;name or ID&quot; . restart a container . docker restart &quot;name or ID&quot; . stop a container . docker stop &quot;name or ID&quot; . remove a container . docker rm &quot;name or ID&quot; . onnect to a container . docker exec -it &quot;container name&quot; /bin/bash .",
+    "url": "https://docs.asynchub.org/wsl/docker/cheat-sheet",
+    "relUrl": "/wsl/docker/cheat-sheet"
+  }
+  ,"3": {
+    "title": "Cheat Sheet",
+    "content": "Linux Cheat Sheet . How to: . see kernel version . uname -srm . view the contents of the os-release file . cat /etc/os-release .",
+    "url": "https://docs.asynchub.org/wsl/linux/cheat-sheet",
+    "relUrl": "/wsl/linux/cheat-sheet"
+  }
+  ,"4": {
     "title": "Coupling",
     "content": "Coupling . Afferent coupling | Efferent coupling | Platform coupling | Spatial coupling | Temporal coupling | . Additional resources list . Temporal Coupling Forms of Temporal Coupling | Design Smell: Temporal Coupling | Temporal coupling and Immutability | . | .",
     "url": "https://docs.asynchub.org/software-design-and-architecture/coupling",
     "relUrl": "/software-design-and-architecture/coupling"
   }
-  ,"3": {
+  ,"5": {
     "title": "Functional Programming in C#",
     "content": "Functional Programming in C# .",
     "url": "https://docs.asynchub.org/functional-programming/csharp",
     "relUrl": "/functional-programming/csharp"
   }
-  ,"4": {
+  ,"6": {
     "title": "DevOps",
     "content": "DevOps .",
     "url": "https://docs.asynchub.org/devops",
     "relUrl": "/devops"
   }
-  ,"5": {
-    "title": "Docker Cheat Sheet",
-    "content": "Docker Cheat Sheet . How to: . list images . docker images . remove an image . docker rmi &quot;name or ID&quot; . see all containers . docker -ps -a . run a container . docker run -d &quot;name or ID&quot; . restart a container . docker restart &quot;name or ID&quot; . stop a container . docker stop &quot;name or ID&quot; . remove a container . docker rm &quot;name or ID&quot; .",
-    "url": "https://docs.asynchub.org/wsl/docker/docker-cheat-sheet",
-    "relUrl": "/wsl/docker/docker-cheat-sheet"
+  ,"7": {
+    "title": "Docker",
+    "content": "Docker .",
+    "url": "https://docs.asynchub.org/wsl/docker",
+    "relUrl": "/wsl/docker"
   }
-  ,"6": {
+  ,"8": {
     "title": ".NET Internals",
     "content": ".NET Internals .",
     "url": "https://docs.asynchub.org/dot-net-internals",
     "relUrl": "/dot-net-internals"
   }
-  ,"7": {
+  ,"9": {
     "title": "Events and Messages",
     "content": "Events and Messages .",
     "url": "https://docs.asynchub.org/software-design-and-architecture/events-and-messages",
     "relUrl": "/software-design-and-architecture/events-and-messages"
   }
-  ,"8": {
+  ,"10": {
     "title": "Functional Programming in F#",
     "content": "Functional Programming in F# .",
     "url": "https://docs.asynchub.org/functional-programming/fsharp",
     "relUrl": "/functional-programming/fsharp"
   }
-  ,"9": {
+  ,"11": {
     "title": "Functional Programming",
     "content": "Functional Programming .",
     "url": "https://docs.asynchub.org/functional-programming",
     "relUrl": "/functional-programming"
   }
-  ,"10": {
+  ,"12": {
     "title": "Git Cheat Sheet",
     "content": "Git Cheat Sheet . New repository . git init git status .",
     "url": "https://docs.asynchub.org/devops/version-control/git-cheat-sheet",
     "relUrl": "/devops/version-control/git-cheat-sheet"
   }
-  ,"11": {
+  ,"13": {
     "title": "Idempotence",
     "content": "Idempotence . . Additional resources list . What does idempotent mean? .",
     "url": "https://docs.asynchub.org/software-design-and-architecture/idempotence",
     "relUrl": "/software-design-and-architecture/idempotence"
   }
-  ,"12": {
+  ,"14": {
     "title": "Home",
     "content": "Focus on writing helpful notes! . This resource is the set of references to the different kinds of resources and my notes about software development. I found them very useful to me for the last ten years. .",
     "url": "https://docs.asynchub.org/",
     "relUrl": "/"
   }
-  ,"13": {
+  ,"15": {
+    "title": "Linux",
+    "content": "Linux .",
+    "url": "https://docs.asynchub.org/wsl/linux",
+    "relUrl": "/wsl/linux"
+  }
+  ,"16": {
     "title": "Load Testing",
     "content": "Load Testing . Pluralsight course - JMeter: Getting Started Learn the basics of creating performance tests for web applications using JMeter. .",
     "url": "https://docs.asynchub.org/software-testing/load-testing",
     "relUrl": "/software-testing/load-testing"
   }
-  ,"14": {
+  ,"17": {
     "title": "Result and Result`T types in C#",
     "content": "Result and Result`T types in C# . using System; public class Result { public bool IsSuccess { get; } public string FailMessage { get; } protected Result(bool isSuccess, string failMessage) { if (isSuccess &amp;&amp; failMessage != null || !isSuccess &amp;&amp; failMessage == null) { var message = $&quot;Can&#39;t initialize an instance of {nameof(Result)} type.&quot;; throw new InvalidOperationException(message); } IsSuccess = isSuccess; FailMessage = failMessage; } public static Result CreateFail(string failMessage) { return new Result(false, failMessage); } public static Result&lt;T&gt; CreateFail&lt;T&gt;(string failMessage) { return new Result&lt;T&gt;(default(T), false, failMessage); } public static Result CreateSuccess() { return new Result(true, null); } public static Result&lt;T&gt; CreateSuccess&lt;T&gt;(T value) { return new Result&lt;T&gt;(value, true, null); } } public class Result&lt;T&gt; : Result { public T Value { get; } protected internal Result(T value, bool isSuccess, string failMessage) : base(isSuccess, failMessage) { Value = value; } } . . Additional resources list . Functional Programming in C#: How to write better C# code Applying Functional Principles in C# .",
     "url": "https://docs.asynchub.org/functional-programming/csharp/result-and-result%601-types",
     "relUrl": "/functional-programming/csharp/result-and-result`1-types"
   }
-  ,"15": {
+  ,"18": {
     "title": "Software Design and Architecture",
     "content": "Software Design and Architecture .",
     "url": "https://docs.asynchub.org/software-design-and-architecture",
     "relUrl": "/software-design-and-architecture"
   }
-  ,"16": {
+  ,"19": {
     "title": "Software Testing",
     "content": "Software Testing .",
     "url": "https://docs.asynchub.org/software-testing",
     "relUrl": "/software-testing"
   }
-  ,"17": {
+  ,"20": {
     "title": "Unit Testing",
     "content": "Unit Testing .",
     "url": "https://docs.asynchub.org/software-testing/unit-testing",
     "relUrl": "/software-testing/unit-testing"
   }
-  ,"18": {
+  ,"21": {
     "title": "Version Control",
     "content": "Version Control .",
     "url": "https://docs.asynchub.org/devops/version-control/",
     "relUrl": "/devops/version-control/"
   }
-  ,"19": {
+  ,"22": {
     "title": "What is a function with side effect?",
     "content": "What is a function with side effect? . If a function modifies some state outside its local scope. . . Additional resources list . The excellent explanation of side effect you can find here . A side effect definition in computer science. .",
     "url": "https://docs.asynchub.org/functional-programming/what-is-a-function-with-side-effect",
     "relUrl": "/functional-programming/what-is-a-function-with-side-effect"
   }
-  ,"20": {
+  ,"23": {
     "title": "What is a pure function?",
     "content": "What is a pure function? . In software development, a pure function is a function with the following properties: . The function output always depends on the input. | Has no side effects after evaluation. | . . Additional resources list . The excellent explanation of pure function you can find here. . The book: Functional Programming in C#: How to write better C# code by Enrico Buonanno. .",
     "url": "https://docs.asynchub.org/functional-programming/what-is-a-pure-function",
     "relUrl": "/functional-programming/what-is-a-pure-function"
   }
-  ,"21": {
+  ,"24": {
     "title": "WSL 2 Getting started",
     "content": "WSL 2: Getting started .",
     "url": "https://docs.asynchub.org/wsl/wsl-2-getting-started",
     "relUrl": "/wsl/wsl-2-getting-started"
   }
-  ,"22": {
+  ,"25": {
     "title": "WSL 2 Networking",
     "content": "WSL 2 Networking .",
     "url": "https://docs.asynchub.org/wsl/wsl-2-networking",
     "relUrl": "/wsl/wsl-2-networking"
   }
-  ,"23": {
+  ,"26": {
     "title": "Windows Subsystem for Linux",
     "content": "Windows Subsystem for Linux .",
     "url": "https://docs.asynchub.org/wsl",

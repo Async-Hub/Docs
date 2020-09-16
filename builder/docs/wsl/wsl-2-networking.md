@@ -2,7 +2,7 @@
 layout: default
 title: WSL 2 Networking
 parent: Windows Subsystem for Linux
-nav_order: 3
+nav_order: 4
 has_children: false
 permalink: wsl/wsl-2-networking
 ---

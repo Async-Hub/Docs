@@ -2,7 +2,7 @@
 layout: default
 title: WSL 2 Getting started
 parent: Windows Subsystem for Linux
-nav_order: 2
+nav_order: 3
 has_children: false
 permalink: wsl/wsl-2-getting-started
 ---
