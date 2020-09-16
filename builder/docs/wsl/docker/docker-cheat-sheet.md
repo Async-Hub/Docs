@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Docker Cheat Sheet
-parent: DevOps
-nav_order: 2
+parent: Windows Subsystem for Linux
+nav_order: 1
 has_children: false
-permalink: devops/docker/docker-cheat-sheet
+permalink: wsl/docker/docker-cheat-sheet
 ---
 
 ## Docker Cheat Sheet
